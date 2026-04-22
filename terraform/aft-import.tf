@@ -17,7 +17,9 @@ module "aft-import" {
     change_reason       = "Enroll existing AFT-Import account into AFT"
   }
 
-  custom_fields = {}
+  custom_fields = {                                                                                    
+      account_id = "617371012393"                                                               
+    }
 
   account_customizations_name = "aft-import"
 }
