@@ -4,7 +4,7 @@ module "aft-import" {
   control_tower_parameters = {
     AccountEmail              = "ssthungo+aftimport@amazon.com"
     AccountName               = "aft-import"
-    ManagedOrganizationalUnit = "AFT-ORG (ou-k39a-7501bijz)"
+    ManagedOrganizationalUnit = "AFT-ORG"
     SSOUserEmail              = "ssthungo+aftimport@amazon.com"
     SSOUserFirstName          = "AFT-Import"
     SSOUserLastName           = "Test"
