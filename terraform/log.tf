@@ -17,7 +17,9 @@ module "aft-log-acc" {
     change_reason       = "Enroll existing AFT-Import account into AFT"
   }
 
-  custom_fields = {}
+  custom_fields = {
+    custom_a=custom_1
+  }
 
   account_customizations_name = ""
 }
