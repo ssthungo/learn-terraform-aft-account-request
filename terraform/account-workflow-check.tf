@@ -20,7 +20,7 @@ module "account-workflow" {
   }
 
   custom_fields = {
-    group = "non-prod"
+    group = "rod"
   }
 
   account_customizations_name = "sandbox"
