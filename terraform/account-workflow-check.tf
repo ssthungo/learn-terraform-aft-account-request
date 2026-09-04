@@ -4,7 +4,7 @@ module "account-workflow" {
   control_tower_parameters = {
     AccountEmail              = "ssthungo+aft+wrkflow@amazon.com"
     AccountName               = "aft-account-wf"
-    ManagedOrganizationalUnit = "SST"
+    ManagedOrganizationalUnit = "Sandbox-CT"
     SSOUserEmail              = "ssthungo+wrkflow@amazon.com"
     SSOUserFirstName          = "aft-account-wf"
     SSOUserLastName           = "AFT"
