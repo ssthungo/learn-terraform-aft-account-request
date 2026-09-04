@@ -17,7 +17,7 @@ module "sandbox-2" {
 
   change_management_parameters = {
     change_requested_by = "HashiCorp Learn"
-    change_reason       = "Learn AWS CTAccount Factory for Terraform"
+    change_reason       = "Learn AWS CT AFT"
   }
 
   custom_fields = {
