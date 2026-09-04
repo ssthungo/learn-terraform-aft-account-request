@@ -13,6 +13,7 @@ module "account-workflow" {
   account_tags = {
     "Learn Tutorial" = "AFT"
     "Test" = "PPP"
+    "Tag" = "1"
   }
 
   change_management_parameters = {
